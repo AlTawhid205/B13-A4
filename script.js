@@ -161,7 +161,7 @@ function handleButtonClick(event) {
     const type = parentNode.querySelector('.type').innerText
     const description = parentNode.querySelector('.description').innerText
 
-    // parentNode.querySelector('.titel').innerText = 'Rejected'
+
     const titleEl = parentNode.querySelector('.titel');
     titleEl.innerText = 'Rejected';
     titleEl.classList.remove('text-green-600', 'bg-green-100');
