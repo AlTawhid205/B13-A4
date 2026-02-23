@@ -120,7 +120,7 @@ function handleButtonClick(event) {
     const titleEl = parentNode.querySelector('.titel');
     titleEl.innerText = 'Interview';
     titleEl.classList.remove('text-red-500', 'bg-red-100');
-    titleEl.classList.add('text-green-600', 'bg-green-100', 'px-2', 'py-1', 'rounded');
+    titleEl.classList.add('text-green-600', 'bg-green-100', 'px-2', 'py-1', 'rounded-md');
 
     const cardInfo = {
       jobName,
